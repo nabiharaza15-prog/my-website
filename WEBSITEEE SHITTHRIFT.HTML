@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: rgb(89, 6, 6);
+        }
+
+        h1 {
+            background-color: maroon;
+            color: rgb(240, 240, 117);
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        h2 {
+            background-color: rgb(240, 240, 109);
+            color: maroon;
+            text-align: center;
+        }
+
+        .cl img {
+            height: 30vh;
+            ;
+            width: 95vw;
+            filter: blur(5px);
+            /* overflow: hidden; */
+            object-fit: cover;
+
+        }
+/* 
+        .box {
+            background-color: rgb(246, 246, 97);
+            border: 2px black;
+            margin: 0%;
+            padding: 0%;
+            height: 50px;
+            width: 50px;
+        } */
+
+        * {
+            margin: 0%;
+            padding: 10px;
+        }
+
+        nav {
+            align-items: center;
+            color: blanchedalmond;
+        }
+
+        footer {
+            align-items: center;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* Creates 3 equal columns */
+            gap: 15px;
+            /* Space between the images */
+            max-width: 900px;
+            margin: 0 auto;
+            /* Center the grid on the page */
+        }
+
+
+
+        /* Styling for each image container */
+        .image-item {
+            background-color: rgb(223, 223, 105);
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Styling for the pictures */
+        .image-item img {
+            width: 100%;
+            /* Make image fit the column width */
+            height: 200px;
+            /* Uniform height for all images */
+            object-fit: cover;
+            /* Keeps image proportions clean */
+            border-radius: 4px;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 600px) {
+            .image-grid {
+                grid-template-columns: repeat(2, 1fr);
+                /* 2 columns on smaller screens */
+            }
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 3 equal columns */
+            gap: 15px;
+            /* Space between pictures */
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: 250px;
+            /* Makes all pictures the same height */
+            object-fit: cover;
+            /* Crops image neatly to fit the box */
+            border-radius: 8px;
+            /* Optional rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            color: aliceblue;
+        }
+
+        nav {
+            color: antiquewhite;
+        }
+        /* .para{
+            background-color: aliceblue;
+            color: brown;
+            padding: 0;
+            margin: 0;
+            border-radius: 2px black;
+        } */
+         p{
+            color:rgb(223, 223, 105);
+            text-align: center;
+            font-size: large;
+         }
+         h2{
+            background-color: maroon;
+            color:rgb(223, 223, 105);
+            text-align: center;
+            margin-top: 10px;
+            padding: 10px;
+         }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <h1>SHITTHRIFT</h1>
+    <h1>YOUR INSPO INTO REALITY <3</h1>
+    <h2>ABOUT US</h2>
+    <P>Welcome to Shitthrift, where your fashion mood boards come to life without breaking the bank. We aren't just a thrift store—we are your personal thrifting curators. Send us your style inspiration, and we will hunt down the perfect pieces for you—all primarily under ₹999. High fashion, sustainable choices, and unmatched affordability meet right here.
+</P>
+  
+    <div class="cl">
+        <img src="Yellow and Green Illustrated Thrift Instagram Post (1) copy.png" alt="">
+        <div class="para">
+        </div>
+
+    </div>
+    <h2>CUSTOMER'S TOP PICKS AND FAVOURITES</h2>
+
+    <div class="image-grid">
+        <!-- Upper Row (Pictures 1, 2, 3) -->
+        <div class="image-item">
+            <img src="butter ywllow.png" alt="Picture 1">
+        </div>
+        <div class="image-item">
+            <img src="blue.png" alt="Picture 2">
+        </div>
+        <div class="image-item">
+            <img src="pink.png" alt="Picture 3">
+        </div>
+
+        <!-- Bottom Row (Pictures 4, 5, 6) -->
+        <div class="image-item">
+            <img src="cheetah (1).png" alt="Picture 4">
+        </div>
+        <div class="image-item">
+            <img src="BABY PINK.png" alt="Picture 5">
+        </div>
+        <div class="image-item">
+            <img src="BURGUNDY.png" alt="Picture 6">
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <h2> SKIRTS ANDD MORE DROP !</h2>
+    <div class="image-grid 2">
+        <!-- Upper Row (3 Pictures) -->
+        <div class="image-item">
+            <img src="black skirt.png" alt="New Beach">
+        </div>
+        <div class="image-item">
+            <img src="black silk.png" alt="New Mountain">
+        </div>
+        <div class="image-item">
+            <img src="skirt grey.png" alt="New Forest">
+        </div>
+
+        <!-- Bottom Row (3 Pictures) -->
+        <div class="image-item">
+            <img src="green croptop.png" alt="New Sun Rays">
+        </div>
+        <div class="image-item">
+            <img src="grey shirt.png" alt="New Hills">
+        </div>
+        <div class="image-item">
+            <img src="both skirts.png" alt="New Valley">
+        </div>
+    </div>
+
+</body>
+<footer id="contact">
+    <p>&copy; 2026 SHITTHRIFT Clothing Brand. All rights reserved.</p>
+</footer>
+
+</html>
